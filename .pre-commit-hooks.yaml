@@ -1,0 +1,6 @@
+- id: jsonnetfmt
+  name: jsonnetfmt
+  description: This hook runs jsonnetfmt on .jsonnet files.
+  entry: scripts/jsonnetfmt.sh
+  language: script
+  files: \.jsonnet$
