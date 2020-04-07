@@ -8,5 +8,5 @@ if ! command which jsonnetfmt &>/dev/null; then
 fi
 
 for i in "$@"; do
-    jsonnetfmt -n 2 --max-blank-lines 2 --string-style s --comment-style s $i
+    jsonnetfmt -n 2 --max-blank-lines 2 --string-style s --comment-style s -i $i
 done
