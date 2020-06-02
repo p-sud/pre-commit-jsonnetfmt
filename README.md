@@ -9,7 +9,7 @@ First ensure that the `jsonnetfmt` executable is on your `PATH`. On MacOS, insta
 Then, add the hook to your `pre-commit-config.yaml` by copying the following lines into it:
 
 ```
-  - repo: https://github.com/p-sud/pre-commit-jsonnetfmt
+  - repo: https://github.com/paul-sud/pre-commit-jsonnetfmt
     rev: master
     hooks:
       - id: jsonnetfmt
